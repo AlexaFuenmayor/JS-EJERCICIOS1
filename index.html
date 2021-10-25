@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicios</title>
+  <link rel="stylesheet" href="CSS.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1 class="titulo1">Ejercicios JS <br> Escuadrón Dinamita</h1>
+
+  <div class="ejercicios">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Ejercicio 1</h4>
+        <h6 class="card-subtitle mb-2 text-muted">EMPRESA</h6>
+        <p class="card-text">
+          Empleado:
+        <div id="nombre"></div>
+        </p>
+        <button id="boton1">Click Aquí</button>
+        <br>
+        <br>
+        <p class="card-text">
+          Sueldo: $
+        <div id="sueldo"></div>
+        <button id="boton2">Click Aquí</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Ejercicio 2</h4>
+        <h6 class="card-subtitle mb-2 text-muted">Traducción</h6>
+        <ul class="list-group list-group-flush ">
+          <li class="list-group-item" id="casa">Casa</li>
+          <li class="list-group-item" id="perro">Perro</li>
+          <li class="list-group-item" id="gato">Gato</li>
+          <li class="list-group-item" id="carro">Carro</li>
+          <button id="traduce">Traducción</button>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card" onmouseover="imagenManzana()" onmouseout="imagenManzana()">
+      <div class="card-body">
+        <h4 class="card-title">Ejercicio 3</h4>
+        <h6 class="card-subtitle mb-2 text-muted">Imagen Cambiante</h6>
+        <img class="card-img" id="fruta" src="Imagenes/manzana.png" alt="Card image">
+        <div class="card-img-overlay">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ejercicios">
+    <div class="card">
+      <div class="card-body" id='seccion'>
+        <h4 class="card-title">Ejercicio 4</h4>
+        <h6 class="card-subtitle mb-2 text-muted">Colores</h6>
+        <ul class="list-group list-group-flush ">
+          <li class="list-group-item" id="casa">
+            <div id="div1"> </div>
+          </li>
+          <li class="list-group-item" id="perro">
+            <div id="div2"></div>
+          </li>
+          <li class="list-group-item" id="gato">
+            <div id="div3"></div>
+          </li>
+          <button id="boton">Descubre</button>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Ejercicio 5</h4>
+        <h6 class="card-subtitle mb-2 text-muted">Pizzeria</h6>
+        <img class="card-img" src="Imagenes/pizza.png" alt="pizza">
+        <ul class="list-group list-group-flush ">
+          <button id="pizzas">HAZ TU PEDIDO AQUÍ</button>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Ejercicio 6</h4>
+        <h6 class="card-subtitle mb-2 text-muted">Console</h6>
+        <img class="card-img" src="Imagenes/console.jfif" alt="console">
+        <div class="card-img-overlay">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="ejercicios">
+    <div class="card">
+      <div class="card-body" id='seccion'>
+        <h4 class="card-title">Ejercicio 7</h4>
+        <h6 class="card-subtitle mb-2 text-muted">Magic</h6>
+        <ul class="list-group list-group-flush ">
+          <li class="list-group-item" onmouseover="imagenConejo()"> <img id="conejo" width="200px" height="auto"
+              src="Imagenes/conejo.png" alt="conejo"> </li>
+          <a id="aparecer" href="#h"> Aparecer </a>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Ejercicio 8</h4>
+        <h6 class="card-subtitle mb-2 text-muted">JS DISCO</h6>
+        <img class="card-img" src="Imagenes/disco.png" alt="disco">
+        <ul class="list-group list-group-flush ">
+
+          <button id="disco"> Acceso
+          </button>
+        </ul>
+      </div>
+    </div>
+
+    <div #1 class="card">
+      <div class="card-body">
+        <h4 class="card-title">Ejercicio 9</h4>
+        <h6 class="card-subtitle mb-2 text-muted">Organiza Tu Calendario</h6>
+        <li id="dias1" class="list-group-item"> <a class="dia" href="#1"> Lunes </a> </li>
+        <li id="dias2" class="list-group-item"> <a class="dia" href="#1"> Martes </a></li>
+        <li id="dias3" class="list-group-item"> <a class="dia" href="#1"> Miércoles </a> </li>
+        <li id="dias4" class="list-group-item"> <a class="dia" href="#1"> Jueves </a> </li>
+        <li id="dias5" class="list-group-item"> <a class="dia" href="#1"> Viernes </a></li>
+        <li id="dias6" class="list-group-item"> <a class="dia" href="#1"> Sábado </a></li>
+        <li id="dias7" class="list-group-item"> <a class="dia" href="#1"> Domingo </a> </li>
+        <br>
+        <h4 class="card-subtitle b-2 text-muted text-center">Click Sobre el Día</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="ejercicios">
+    <div class="card">
+      <div class="card-body" id='seccion'>
+        <h4 class="card-title">Ejercicio 10</h4>
+        <h6 class="card-subtitle mb-2 text-muted">Upper or Lower</h6>
+        <ul class="list-group list-group-flush ">
+          <li class="list-group-item"> <img id="" width="200px" height="auto" src="Imagenes/Mayus.jpg" alt="Letras">
+          </li>
+          <button id="boton10">Ingrese la frase</button>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Ejercicio 11</h4>
+        <h6 class="card-subtitle mb-2 text-muted">Compra Vs Presupuesto</h6>
+        <img class="card-img" src="Imagenes/Precio.jpg" alt="precio">
+        <ul class="list-group list-group-flush ">
+          <br>
+          <br>
+          <button id="botonE11">Consultar saldo</button>
+          <br>
+          <button id="botonE12">Hacer la compra</button>
+        </ul>
+      </div>
+    </div>
+
+    <div #1 class="card">
+      <div class="card-body">
+        <h4 class="card-title">Ejercicio 12</h4>
+        <h6 class="card-subtitle mb-2 text-muted">SanchezCode Puzzle</h6>
+
+        <h2>Letras</h2>
+        <div id="letras"></div>
+        <h2>Números</h2>
+        <div id="numeros"></div>
+        <table>
+          <tr>
+            <td><button id="uno">A-1</button></td>
+            <td><button id="dos">B-2</button></td>
+            <td><button id="tres">C-3</button></td>
+          </tr>
+          <tr>
+            <td><button id="cuatro">D-4</button></td>
+            <td><button id="cinco">E-5</button></td>
+            <td><button id="seis">F-6</button></td>
+          </tr>
+          <tr>
+            <td><button id="siete">G-7</button></td>
+            <td><button id="ocho">H-8</button></td>
+            <td>
+              <button id="nueve">I-9</button>
+            </td>
+          </tr>
+          <tr>
+            <td><button id="diez">L-N</button></td>
+            <td><button id="once">J-0</button></td>
+            <td><button id="doce" onclick="btn1()">L-N</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card cardEnd" >
+    <div class="card-body">
+      <h4 class="card-title">Ejercicio 13</h4>
+      <h6 class="card-subtitle mb-2 text-muted">Password</h6>
+      <img class="card-img" src="Imagenes/password.jpg" alt="precio">
+      <ul class="list-group list-group-flush ">
+        <FORM name=formclave>
+
+          <INPUT type=password name=clave>
+       
+          <a href="Pagina2.html"><INPUT id="imput" type=button value=Acceder></a>
+       
+       </FORM>
+      </ul>
+    </div>
+
+  <script src="JS/animaciones.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

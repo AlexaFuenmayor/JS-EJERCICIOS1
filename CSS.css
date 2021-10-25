@@ -1,0 +1,36 @@
+body {
+  background-image: url(Imagenes/backg.jpg);
+  background-repeat: no-repeat;
+  min-height: 1000px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.titulo1 {
+  background-image: url(Imagenes/fondo.jpg);
+  text-align: center;
+  font-size: 80px;
+  color: bisque;
+  font-size: 50px;
+}
+
+.ejercicios {
+  display: inline-flex;
+  margin-left: 7rem;
+}
+
+.card {
+  width: 300px;
+  margin: 2rem 2rem 2rem 3rem;
+}
+
+.dia {
+  text-decoration: none;
+  color: black;
+}
+.cardEnd{
+  margin-left: 540px;
+
+}
